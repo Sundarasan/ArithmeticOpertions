@@ -12,9 +12,11 @@
 	dom.subA = DOM.byId('sub-a');
 	dom.subB = DOM.byId('sub-b');
 	dom.subOut = DOM.byId('sub-out');
+
 	dom.mulA = DOM.byId('mul-a');
 	dom.mulB = DOM.byId('mul-b');
 	dom.mulOut = DOM.byId('mul-out');
+ 
 	/**
 	 * Arithmetic Operations
 	 */
@@ -35,9 +37,14 @@
 	 */
 	DOM.attachEvent(dom.addA, 'input', add);
 	DOM.attachEvent(dom.addB, 'input', add);
+	DOM.attachEvent(dom.subA, 'input', add);
+	DOM.attachEvent(dom.subB, 'input', add);
+	
+
 	DOM.attachEvent(dom.subA, 'input', sub);
 	DOM.attachEvent(dom.subB, 'input', sub);
 	DOM.attachEvent(dom.mulA, 'input', mul);
 	DOM.attachEvent(dom.mulB, 'input', mul);
+
 
 })();
