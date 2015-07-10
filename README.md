@@ -6,3 +6,5 @@ A GIT Playground Project
 Opertion	| Description
 --------	| ----------
 + 			| add two numbers
+-		    | Subracts two numbers
+
