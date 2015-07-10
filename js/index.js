@@ -29,14 +29,17 @@
 	{
 		dom.mulOut.value = parseFloat(dom.mulA.value) * parseFloat(dom.mulB.value);	
 	}
+    
 	/**
 	 * Attaching Events
 	 */
 	DOM.attachEvent(dom.addA, 'input', add);
 	DOM.attachEvent(dom.addB, 'input', add);
+
 	DOM.attachEvent(dom.subA, 'input', sub);
 	DOM.attachEvent(dom.subB, 'input', sub);
 	DOM.attachEvent(dom.mulA, 'input', mul);
 	DOM.attachEvent(dom.mulB, 'input', mul);
+
 
 })();
