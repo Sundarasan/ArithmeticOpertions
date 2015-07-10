@@ -14,7 +14,7 @@
 	 * Arithmetic Operations
 	 */
 	function add() {
-		dom.addOut.value = parseFloat(dom.addA.value) - parseFloat(dom.addB.value);
+		dom.addOut.value = parseFloat(dom.addA.value) + parseFloat(dom.addB.value);
 	}
 
 	/**
