@@ -5,4 +5,4 @@ A GIT Playground Project
 
 Opertion	| Description
 --------	| ----------
-+ 			| Subracts two numbers
++ 			| Adds two numbers
